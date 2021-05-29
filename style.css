@@ -1,0 +1,60 @@
+.container{
+    height: 90vh;
+    display: flex;
+}
+
+.rach{
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    height: 80%;
+}
+
+.rach img{
+    width: 50%;
+    height: 90%;
+    position: relative;
+}
+
+img{
+    transition: 10s;
+}
+
+.fight{
+    align-self: center;
+    display: none;
+}
+
+.yav img{
+    width: 50%;
+    height: 90%;
+    position: relative;
+}
+
+.yav{
+    text-align: right;
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    height: 80%;
+}
+
+.text{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.btn{
+    align-self: baseline;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    display: inline;
+    padding: 10px;
+}
+
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(2, 156, 23);
+}
