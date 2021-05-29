@@ -58,3 +58,25 @@ img{
     background-color: rgb(255, 255, 255);
     color: rgb(2, 156, 23);
 }
+
+@media(max-width: 500px){
+    .yav img{
+        width: 90%;
+        height: 70%;
+    }
+    
+    .yav{
+        width: 100%;
+        height: 70%;
+    }   
+    .rach img{
+        width: 90%;
+        height: 70%;
+    }
+    
+    .rach{
+        width: 100%;
+        height: 70%;
+    }   
+    
+}
